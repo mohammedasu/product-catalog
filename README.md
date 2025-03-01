@@ -49,7 +49,7 @@ If tests fail, ensure .env.testing contains:
 php artisan config:clear
 ```
 
-### **7 Run Test**
+### **7 API Endpoints**
 ```sh
 GET	/api/v1/products	List all products with pagination
 GET	/api/v1/products/{id}	Get a specific product
