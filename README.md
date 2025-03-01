@@ -1,4 +1,4 @@
-## 🚀 **Installation & Setup**
+## **Installation & Setup**
 
 ### **1 Clone the Repository**
 ```sh
