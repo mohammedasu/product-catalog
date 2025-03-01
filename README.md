@@ -49,8 +49,11 @@ If tests fail, ensure .env.testing contains:
 php artisan config:clear
 ```
 
-### **7 API Endpoints**
+### **7 API Documentation & Endpoints**
 ```sh
+You can find the complete API documentation in the Postman collection:
+https://github.com/mohammedasu/product-catalog/blob/master/Product-Catalogue.postman_collection.json
+
 GET	/api/v1/products	List all products with pagination
 GET	/api/v1/products/{id}	Get a specific product
 POST	/api/v1/products	Create a new product
