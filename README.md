@@ -44,4 +44,19 @@ php artisan serve
 ```sh
 php artisan test
 php artisan test --filter=ProductTest
+
+If tests fail, ensure .env.testing contains:
+php artisan config:clear
+```
+
+### **7 Run Test**
+```sh
+GET	/api/v1/products	List all products with pagination
+GET	/api/v1/products/{id}	Get a specific product
+POST	/api/v1/products	Create a new product
+PUT	/api/v1/products/{id}	Update an existing product
+DELETE	/api/v1/products/{id}	Delete a product
+
+Categories
+GET	/api/v1/categories	List categories in a nested structure
 ```
