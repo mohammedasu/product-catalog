@@ -1,9 +1,3 @@
-# 🛍️ Product Catalog API
-
-This is a Laravel-based **Product Catalog API** that follows the **Repository-Service Pattern** with **ProductDAO** and **ProductBO** for structured data handling. It includes features like **category nesting, caching, Pest tests, and SQLite testing**.
-
----
-
 ## 🚀 **Installation & Setup**
 
 ### **1 Clone the Repository**
