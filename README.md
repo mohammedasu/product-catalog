@@ -46,6 +46,10 @@ php artisan test
 php artisan test --filter=ProductTest
 
 If tests fail, ensure .env.testing contains:
+Ensure that these two drivers are enabled in the `php.ini` file:  
+- `"pdo_sqlite"`  
+- `"sqlite3"` 
+
 php artisan config:clear
 ```
 
